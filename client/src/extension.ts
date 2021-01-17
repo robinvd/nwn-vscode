@@ -17,7 +17,7 @@ let client: LanguageClient;
 
 export function activate(context: ExtensionContext) {
 	let serverOptions: ServerOptions = {
-		command: "/home/robin.local/Documents/thesis/lsp/target/debug/lsp"
+		command: "nwn-lsp"
 	}
 
 	// Options to control the language client
